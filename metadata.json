@@ -1,0 +1,5 @@
+{
+  "name": "LoopLens - Offline Video Loop Analyzer",
+  "description": "A privacy-first, offline video analysis tool to detect, analyze, and tag repetitive actions and loops in video footage using Computer Vision.",
+  "requestFramePermissions": []
+}
