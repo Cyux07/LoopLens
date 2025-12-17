@@ -13,8 +13,25 @@ View your app in AI Studio: https://ai.studio/apps/drive/1sJPOFkDvRYzeWNnXXlkOlT
 **Prerequisites:**  Node.js
 
 
-1. Install dependencies:
+1. ~~Install dependencies:~~
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. ~~Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key~~
+3. ~~Run the app:~~
    `npm run dev`
+
+install node by docker:
+```
+docker pull node:24-alpine
+```
+
+build project:
+```
+docker build -t looplens:1.0 .
+```
+
+run container:
+```
+docker run -d -p 8080:80 --name="mylooplens" looplens:1.0
+```
+
+
